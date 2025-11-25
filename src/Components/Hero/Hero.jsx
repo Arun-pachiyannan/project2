@@ -23,7 +23,7 @@ const Hero = () => {
 
           <section className="grid grid-cols-1 md:grid-cols-2 place-items-center min-h-[800px]">
             {/* Text Content Here */}
-            <div className='space-y-8'>
+            <div className='space-y-8 mt-[100px] md:mt-[20px]'>
               <motion.h1 initial={{ opacity: 0, y: -100 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{type:"spring",
@@ -75,7 +75,7 @@ const Hero = () => {
                   delay:0.8,
                   duration:0.8
                 }}
-                className='border-[20px] border-cyan-200 rounded-full h-[350px] w-[340px] md:h-[390px] md:w-[400px] absolute top-5 right-10 md:right-30 glowing-shadow'></motion.div>
+                className='border-[12px] sm:border-[16px] md:border-[20px] border-cyan-200 rounded-full h-[160px] w-[160px] sm:h-[200px] sm:w-[200px] md:h-[390px] md:w-[400px] absolute top-10 right-5 sm:right-6 md:right-[30px] glowing-shadow-sm md:glowing-shadow-md pointer-events-none'></motion.div>
               </div>
               {/* bg text-here */}
               <div className='absolute -top-40 left-0 z-[1] overflow-hidden'>
