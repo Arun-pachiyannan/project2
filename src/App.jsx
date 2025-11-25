@@ -8,4 +8,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter basename="/Arun-Project">
     <App />
   </BrowserRouter>
-);
+)
+export default App
