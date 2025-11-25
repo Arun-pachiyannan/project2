@@ -8,7 +8,7 @@ const App = () => {
       <main className=''>
         <BrowserRouter>
           <Routes>
-            <Route path='/' element={<Hero />} />
+            <Route path='/Arun-Project' element={<Hero />} />
           </Routes>
         </BrowserRouter>
       </main>
