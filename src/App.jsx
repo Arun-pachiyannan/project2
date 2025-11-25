@@ -1,19 +1,11 @@
-import React from 'react'
-import Hero from './Components/Hero/Hero'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+import "./index.css";
 
-const App = () => {
-  return (
-    <div>
-      <main className=''>
-        <BrowserRouter>
-          <Routes>
-            <Route path='/Arun-Project' element={<Hero />} />
-          </Routes>
-        </BrowserRouter>
-      </main>
-    </div>
-  )
-}
-
-export default App
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <BrowserRouter basename="/Arun-Project">
+    <App />
+  </BrowserRouter>
+);
